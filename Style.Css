@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Images/1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+}
+table{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255,0.8) ;
+}
+table tr td input[type=button]{
+    width: 85%;
+    padding: 18px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+table tr td input[type=button]:hover{
+    background-color: rgb(77, 75, 75);
+}
+table tr td input{
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(134, 134, 134);
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px;  
+}
+.Clear{
+    width: 98%;
+    padding: 18px 22px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+    color: white;
+    background-color: rgb(134, 134, 134);
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.Clear:hover{
+    background-color: rgb(77, 75, 75);
+}
+#Display{
+    margin-bottom: 5px;
+    padding: 15px 22px;
+    width:80%;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(134, 134, 134);
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px; 
+}
